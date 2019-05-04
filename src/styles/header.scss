@@ -1,0 +1,13 @@
+@import "./custom_colors";
+ 
+nav.navbar {
+  height: 70px;
+  border-bottom: 1px solid $custom-gray;
+  padding-bottom: 20px;
+  
+  .navbar-brand {  
+    img {
+      height: 70px;
+    }
+  }
+}
