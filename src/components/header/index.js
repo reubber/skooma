@@ -8,7 +8,7 @@ import LogoImage from '../../assets/images/logo-v1-horizontal.png';
 import SearchBox from '../search_box_component';
 import { showModal } from "../../actions/modal";
 import { FaCrosshairs, FaShoppingBasket } from 'react-icons/fa';
-
+import history from '../../history';
 
 import "../../styles/header.scss";
 
@@ -16,10 +16,11 @@ const Header = (props) => (
   <div className="top-navbar">
     <Container>
       <Navbar>
-          <Navbar.Brand>
+          <a href>
+          <Navbar.Brand  onClick={e => history.push('/')}>
             <img src={LogoImage} />
           </Navbar.Brand>
-
+          </a>
           <Navbar.Menu>
             <Navbar.Segment as="div" align="start" className="navbar-item navbar-center">
               <SearchBox />

@@ -12,7 +12,7 @@ const Home = () => (
       <Title subtitle size={3}>direto na sua casa rapidamente</Title>
       <Title subtitle size={5}>Conheça novos sabores</Title>
       <Link to="/restaurants">
-        <Button size="medium" color="custom-orange">
+        <Button size="medium" color="warning">
           <Icon size="small" color="white">
             <FaCrosshairs />
           </Icon>
