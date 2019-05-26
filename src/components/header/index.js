@@ -16,11 +16,13 @@ const Header = (props) => (
   <div className="top-navbar">
     <Container>
       <Navbar>
-          <a href>
+          
           <Navbar.Brand  onClick={e => history.push('/')}>
+          <a href>
             <img src={LogoImage} />
+            </a>
           </Navbar.Brand>
-          </a>
+          
           <Navbar.Menu>
             <Navbar.Segment as="div" align="start" className="navbar-item navbar-center">
               <SearchBox />
