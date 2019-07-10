@@ -1,6 +1,6 @@
 Este projeto foi feito com [Create React App](https://github.com/facebook/create-react-app).
 
-Para o funcionamento do projeto é necessario executar uma api service disponivel em paralelo na porta diferente da padrão 3000 [SKOOMA-API] (https://github.com/reubber/skoomaApi)
+Para o funcionamento do projeto é necessario executar uma api service disponivel na porta diferente da padrão 3000 [SKOOMA-API] (https://github.com/reubber/skoomaApi)
 
 
 ## Scripts Disponiveis
