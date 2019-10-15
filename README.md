@@ -1,11 +1,23 @@
+# Aplicação
+
+Skooma é um sistema `web-service` baseado nos famosos deliverys já existentes. É basicamente uma aplicação no âmbito de restaurantes, que entrega comida na casa ou no trabalho das pessoas, para que elas não tenham que cozinhar nem se deslocar até os restaurantes.  
+
+
+## Sobre
+
+O projeto foi idealizado na cadeira de manuntenção de software na universidade federal do ceará (UFC) com o objetivo de aprender as tecnologias atuais do mercado. 
+
+
+## Tecnologias
+
 Este projeto foi feito com [Create React App](https://github.com/facebook/create-react-app).
 
-Para o funcionamento do projeto é necessario executar uma api service disponivel na porta diferente da padrão 3000 [SKOOMA-API] (https://github.com/reubber/skoomaApi)
+Para o funcionamento do projeto completo é necessario executar uma api service feita com o framework ruby on rails e rodar o servidor numa porta diferente da padrão 3000 [SKOOMA-API] (https://github.com/reubber/skoomaApi)
 
 
-## Scripts Disponiveis
+## Scripts
 
-para rodar o projeto voce deve executar:
+Para rodar o projeto voce deve executar:
 
 ### `npm start`
 
